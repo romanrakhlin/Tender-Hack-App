@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8276EF39280C250B00617432 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 8276EF38280C250B00617432 /* Charts */; };
+		827D2FB5280B33F7002128E4 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D2FB4280B33F7002128E4 /* SessionsView.swift */; };
+		827D2FB7280B3B91002128E4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D2FB6280B3B91002128E4 /* Session.swift */; };
+		827D2FBB280B3CF3002128E4 /* TenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D2FBA280B3CF3002128E4 /* TenderViewModel.swift */; };
+		827D2FBD280B5983002128E4 /* BidOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D2FBC280B5983002128E4 /* BidOffer.swift */; };
+		827D2FBF280B6746002128E4 /* OffersChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D2FBE280B6746002128E4 /* OffersChart.swift */; };
+		827D2FC1280B6868002128E4 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D2FC0280B6868002128E4 /* Offer.swift */; };
 		82F6D812280ADEE60093C756 /* Tender_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6D811280ADEE60093C756 /* Tender_AppApp.swift */; };
-		82F6D814280ADEE60093C756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6D813280ADEE60093C756 /* ContentView.swift */; };
+		82F6D814280ADEE60093C756 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6D813280ADEE60093C756 /* SessionView.swift */; };
 		82F6D816280ADEE70093C756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F6D815280ADEE70093C756 /* Assets.xcassets */; };
 		82F6D819280ADEE70093C756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F6D818280ADEE70093C756 /* Preview Assets.xcassets */; };
+		82F6D86D280B08660093C756 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6D86C280B08660093C756 /* LoginView.swift */; };
+		82F6D86F280B0D830093C756 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6D86E280B0D830093C756 /* WaveShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		827D2FB4280B33F7002128E4 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		827D2FB6280B3B91002128E4 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		827D2FBA280B3CF3002128E4 /* TenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenderViewModel.swift; sourceTree = "<group>"; };
+		827D2FBC280B5983002128E4 /* BidOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidOffer.swift; sourceTree = "<group>"; };
+		827D2FBE280B6746002128E4 /* OffersChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersChart.swift; sourceTree = "<group>"; };
+		827D2FC0280B6868002128E4 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		82F6D80E280ADEE60093C756 /* Tender App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tender App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F6D811280ADEE60093C756 /* Tender_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tender_AppApp.swift; sourceTree = "<group>"; };
-		82F6D813280ADEE60093C756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82F6D813280ADEE60093C756 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 		82F6D815280ADEE70093C756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82F6D818280ADEE70093C756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82F6D86C280B08660093C756 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		82F6D86E280B0D830093C756 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +43,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8276EF39280C250B00617432 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		827D2FB8280B3B99002128E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				827D2FB6280B3B91002128E4 /* Session.swift */,
+				827D2FBC280B5983002128E4 /* BidOffer.swift */,
+				827D2FC0280B6868002128E4 /* Offer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		827D2FB9280B3CE5002128E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				827D2FBA280B3CF3002128E4 /* TenderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		82F6D805280ADEE60093C756 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				82F6D811280ADEE60093C756 /* Tender_AppApp.swift */,
-				82F6D813280ADEE60093C756 /* ContentView.swift */,
+				82F6D870280B330C0093C756 /* Views */,
+				827D2FB9280B3CE5002128E4 /* ViewModel */,
+				827D2FB8280B3B99002128E4 /* Model */,
 				82F6D815280ADEE70093C756 /* Assets.xcassets */,
 				82F6D817280ADEE70093C756 /* Preview Content */,
 			);
@@ -65,6 +103,26 @@
 				82F6D818280ADEE70093C756 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82F6D870280B330C0093C756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82F6D86C280B08660093C756 /* LoginView.swift */,
+				827D2FB4280B33F7002128E4 /* SessionsView.swift */,
+				82F6D813280ADEE60093C756 /* SessionView.swift */,
+				82F6D871280B331A0093C756 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82F6D871280B331A0093C756 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				82F6D86E280B0D830093C756 /* WaveShape.swift */,
+				827D2FBE280B6746002128E4 /* OffersChart.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +141,9 @@
 			dependencies = (
 			);
 			name = "Tender App";
+			packageProductDependencies = (
+				8276EF38280C250B00617432 /* Charts */,
+			);
 			productName = "Tender App";
 			productReference = 82F6D80E280ADEE60093C756 /* Tender App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +172,9 @@
 				Base,
 			);
 			mainGroup = 82F6D805280ADEE60093C756;
+			packageReferences = (
+				8276EF37280C250B00617432 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 82F6D80F280ADEE60093C756 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F6D814280ADEE60093C756 /* ContentView.swift in Sources */,
+				827D2FBD280B5983002128E4 /* BidOffer.swift in Sources */,
+				827D2FB5280B33F7002128E4 /* SessionsView.swift in Sources */,
+				82F6D86D280B08660093C756 /* LoginView.swift in Sources */,
+				827D2FB7280B3B91002128E4 /* Session.swift in Sources */,
+				827D2FC1280B6868002128E4 /* Offer.swift in Sources */,
+				82F6D86F280B0D830093C756 /* WaveShape.swift in Sources */,
+				827D2FBF280B6746002128E4 /* OffersChart.swift in Sources */,
+				82F6D814280ADEE60093C756 /* SessionView.swift in Sources */,
+				827D2FBB280B3CF3002128E4 /* TenderViewModel.swift in Sources */,
 				82F6D812280ADEE60093C756 /* Tender_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8276EF37280C250B00617432 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8276EF38280C250B00617432 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8276EF37280C250B00617432 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82F6D806280ADEE60093C756 /* Project object */;
 }
